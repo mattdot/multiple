@@ -1,25 +1,16 @@
 {
     "apps" : [
         {
-            "name"        : "foo",
-            "script"      : "./foo/app.js",
-            "watch"       : true,
-            "env": {
-                "NODE_ENV": "development"
-            },
-            "env_production" : {
-                "NODE_ENV": "production"
-            }
-        },
-        {
-            "name"       : "bar",
-            "script"     : "./bar/app.js",
-            "watch"     : true
-        },
-        {
             "name"       : "root",
-            "script"     : "./root/app.js",
-            "watch"     : true
+            "script"     : "/root/app.js",
+            "instances" :1,
+            "merge_logs" : true,
+            "watch"     : ["/root/*.js"],
+                "watch_options": {
+                "followSymlinks": true,
+                "usePolling"   : true,
+                "interval"    : 5
+            }
         }
     ]
 }
