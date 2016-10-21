@@ -15,6 +15,11 @@
             "name"       : "bar",
             "script"     : "./bar/app.js",
             "watch"     : true
+        },
+        {
+            "name"       : "root",
+            "script"     : "./root/app.js",
+            "watch"     : true
         }
     ]
 }
