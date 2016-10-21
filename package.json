@@ -2,18 +2,14 @@
   "name": "multiple",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "root/app.js",
   "scripts": {
-    "start": "node_modules/.bin/nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "restify": "^4.1.1"
   },
-  "devDependencies": {
-    "nodemon": "^1.11.0",
-    "pm2": "^2.0.18"
-  }
+  "devDependencies": {}
 }
