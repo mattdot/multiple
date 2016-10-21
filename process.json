@@ -2,10 +2,10 @@
     "apps" : [
         {
             "name"       : "root",
-            "script"     : "/root/app.js",
+            "script"     : "root/app.js",
             "instances" :1,
             "merge_logs" : true,
-            "watch"     : ["/root/*.js"],
+            "watch"     : ["root/*.js"],
                 "watch_options": {
                 "followSymlinks": true,
                 "usePolling"   : true,
