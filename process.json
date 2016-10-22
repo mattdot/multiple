@@ -5,11 +5,11 @@
             "script"     : "root/app.js",
             "instances" :1,
             "merge_logs" : true,
-            "watch"     : ["root/*.js"],
-                "watch_options": {
-                "followSymlinks": true,
-                "usePolling"   : true,
-                "interval"    : 5
+            "watch" : ["root/*.js"],
+                "watch_options" : {
+                "followSymlinks" : true,
+                "usePolling" : true,
+                "interval" : 5
             }
         }
     ]
